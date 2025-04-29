@@ -19,7 +19,10 @@ public class Demo2 {
     public static void main(String[] args) {
         
         Student_Course s1 = new Student_Course("DevOps", 100);
+        Student_Course s2 = new Student_Course("BDA", 90);
         s1.display();
+      
+        s2.display();
         
     }
 
